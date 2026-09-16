@@ -1,5 +1,5 @@
 const backendURL = "https://thlinks-backend.onrender.com";
-const currentUserId = "user123";
+const currentUserId = "6a9ebc3c-d2bd-4179-8927-ff174ec4a272";
 
 let urlList = [];
 
