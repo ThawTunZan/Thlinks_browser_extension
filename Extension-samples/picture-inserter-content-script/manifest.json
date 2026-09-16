@@ -14,11 +14,13 @@
     },
     "content_scripts": [
         {
-            "matches": [
-              "<all_urls>"
-            ],
+            "matches": ["<all_urls>"],
             "js": ["content-scripts/content.js"]
         }
+    ],
+    "host_permissions": [
+        "https://thlinks-backend.onrender.com/*",
+        "http://localhost:3000/*"
     ],
     "web_accessible_resources": [
         {

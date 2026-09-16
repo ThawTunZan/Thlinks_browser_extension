@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -19,7 +19,23 @@
     <body>
         <h1>Picture inserter using a content script</h1>
         <button id="sendmessageid">Insert picture</button>
-        <script src="popup.js"></script>
+
         <p>Click the displayed image to remove it from the webpage.</p>
+        <div
+            style="
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            "
+        >
+            <textarea id="input-text" rows="4" cols="50">
+This is a sample message.</textarea
+            >
+            <button id="submit-button">submit</button>
+        </div>
+        <p>LINKS</p>
+        <ul id="url-list"></ul>
+        <script src="popup.js"></script>
     </body>
 </html>
